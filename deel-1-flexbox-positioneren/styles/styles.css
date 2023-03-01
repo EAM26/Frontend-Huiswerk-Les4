@@ -43,16 +43,17 @@
     gap: 10px;
 }
 
-.opdracht-5 div {
+.opdracht-5 div  {
     display: flex;
     justify-content: space-between;
+    /*height: 100px;*/
 }
 
 .opdracht-5 ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100px;
+    /*height: 100px;*/
     align-items: flex-start;
 }
 
