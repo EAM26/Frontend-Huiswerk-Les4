@@ -1,1 +1,41 @@
-/*Schrijf hier jouw CSS*/
+* {
+    border: 1px solid indianred;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+
+}
+
+nav {
+    flex-basis: 20vw;
+    flex-shrink: 0;
+}
+
+header, footer {
+    flex-basis: 150px;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+
+}
+
+article {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+

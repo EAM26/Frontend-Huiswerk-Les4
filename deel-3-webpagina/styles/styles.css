@@ -1,1 +1,104 @@
 /*Schrijf hier jouw css*/
+* {
+    /*border: 1px solid indianred;*/
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f3d9;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151e3f;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0 40px;
+
+}
+
+.nav-bar a {
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+}
+.a-left {
+    flex-basis: auto;
+    flex-grow: 1;
+
+}
+
+.a-right {
+    flex-basis: 10%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    padding: 0 40px;
+}
+
+h1, h3 {
+    min-width: 100%;
+}
+
+.inside-header-content {
+    max-width: 70%;
+    align-self: center;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: auto;
+    flex-grow: 1;
+    gap: 40px;
+    padding: 0 40px;
+
+
+}
+
+.main-content article {
+    display: flex;
+    flex-direction: row;
+    background-color: #c16e70;
+    max-width: 280px;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 350px;
+    flex-shrink: 1;
+    align-items: flex-end;
+    flex-grow: 0;
+
+
+}
+
+p {
+    /*flex-basis: 70%;*/
+    gap: 20px;
+    padding: 10px;
+    /*padding-bottom: 10px;*/
+}

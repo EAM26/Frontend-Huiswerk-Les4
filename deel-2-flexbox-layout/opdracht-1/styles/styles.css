@@ -1,1 +1,51 @@
 /*Schrijf hier jouw CSS*/
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid indianred;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+header, footer {
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+aside, nav {
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+article {
+    flex-basis: auto;
+    flex-grow: 6;
+    flex-shrink: 1;
+}
+
+nav {
+    order: 1;
+}
+
+
