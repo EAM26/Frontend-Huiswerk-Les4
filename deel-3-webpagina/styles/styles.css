@@ -1,1 +1,78 @@
 /*Schrijf hier jouw css*/
+* {
+    border: 1px solid indianred;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f3d9;
+    justify-content: space-between;
+
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151e3f;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+.nav-bar a {
+    color: white;
+}
+
+
+.a-left {
+    flex-basis: auto;
+    flex-grow: 1;
+
+}
+
+.a-right {
+    flex-basis: 10%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: auto;
+    flex-grow: 1;
+
+}
+
+.main-content article {
+    display: flex;
+    flex-direction: row;
+    background-color: #c16e70;
+    flex-basis: 280px;
+    justify-content: space-evenly;
+    height: 350px;
+    flex-shrink: 1;
+    align-items: flex-end;
+    align-content: center;
+}
+
+p {
+    flex-basis: 70%;
+    /*padding-bottom: 10px;*/
+
+}
