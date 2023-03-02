@@ -1,8 +1,9 @@
 /*Schrijf hier jouw css*/
 * {
-    border: 1px solid indianred;
+    /*border: 1px solid indianred;*/
     padding: 0;
     margin: 0;
+
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     min-height: 100vh;
     background-color: #f2f3d9;
     justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -23,6 +25,7 @@ body {
     background-color: #151e3f;
     flex-grow: 0;
     flex-shrink: 0;
+    padding: 0 40px;
 
 }
 
@@ -31,6 +34,9 @@ body {
 }
 
 
+a {
+    text-decoration: none;
+}
 .a-left {
     flex-basis: auto;
     flex-grow: 1;
@@ -48,6 +54,13 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    padding: 0 40px;
+}
+
+h1, h3 {
+    min-width: 100%;
 }
 
 .inside-header-content {
@@ -62,6 +75,9 @@ body {
     justify-content: space-evenly;
     flex-basis: auto;
     flex-grow: 1;
+    gap: 40px;
+    padding: 0 40px;
+
 
 }
 
@@ -69,16 +85,20 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #c16e70;
-    flex-basis: 280px;
+    max-width: 280px;
     justify-content: space-evenly;
+    text-align: center;
     height: 350px;
-    flex-shrink: 0;
+    flex-shrink: 1;
     align-items: flex-end;
-    align-content: center;
     flex-grow: 0;
+
+
 }
 
 p {
-    flex-basis: 70%;
+    /*flex-basis: 70%;*/
+    gap: 20px;
+    padding: 10px;
     /*padding-bottom: 10px;*/
 }
