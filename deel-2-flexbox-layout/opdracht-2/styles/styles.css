@@ -1,101 +1,41 @@
-/*!*Schrijf hier jouw CSS*!*/
-/** {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    border: 1px solid indianred;*/
-/*}*/
-
-/*body {*/
-/*    display: flex;*/
-/*    min-height: 100vh;*/
-/*    flex-grow: 0;*/
-/*    flex-shrink: 0;*/
-/*}*/
-
-/*.col-1 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    flex-basis: 20%;*/
-
-/*}*/
-
-/*!*.col-1 nav {*!*/
-/*!*    height: 1000px;*!*/
-/*!*}*!*/
-
-/*.col-2 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    flex-basis: 80%;*/
-/*    flex-grow: 1;*/
-/*    flex-shrink: 1;*/
-
-/*}*/
-
-/*.item {*/
-/*    display: flex;*/
-/*    flex-basis: 20%;*/
-/*    flex-grow: 0;*/
-/*    flex-shrink: 0;*/
-/*}*/
-
-
-
-
-/*.item.main {*/
-/*    flex-basis: 60%;*/
-/*    flex-grow: 1;*/
-/*    flex-shrink: 1;*/
-/*}*/
-/*.item article {*/
-/*    flex-basis: 100%;*/
-/*}*/
-
+* {
+    border: 1px solid indianred;
+    padding: 0;
+    margin: 0;
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    border: 1px solid indianred;
     display: flex;
     min-height: 100vh;
-    flex-grow: 0;
-    flex-shrink: 0;
 }
 
 div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
     flex-grow: 1;
-    flex-shrink: 1;
+
 }
 
-div header {
-    flex-grow: 0;
+nav {
+    flex-basis: 20vw;
     flex-shrink: 0;
 }
 
-
-.col-1 {
-    flex-basis: 20%;
+header, footer {
+    flex-basis: 150px;
+    flex-shrink: 0;
 }
 
-.col-2 {
+main {
     display: flex;
-    flex-direction: column;
-    flex-basis: 80%;
+    flex-basis: auto;
+    flex-grow: 1;
+
 }
 
-.col-2 > * {
-    flex-basis: 200px;
+article {
+    flex-basis: auto;
+    flex-grow: 1;
 }
-
-.col-2 main {
-    display: flex;
-    flex-direction: column ;
-    flex-basis: 900px;
-}
-
-.col-2 main > article {
-    flex-basis:100% ;
-}
-
-
 
